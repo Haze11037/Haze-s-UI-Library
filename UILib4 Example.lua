@@ -1,4 +1,5 @@
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Haze11037/Haze-s-UI-Library/main/UILib4.lua"))()
+Library.LoadLib()
 
 Library.CreateTab({
 	["Tab Name"] = "Tab";
