@@ -69,7 +69,9 @@ function library.LoadLib()
 	wait(3)
 	ScreenGui:Destroy()
 	local ScreenGui = Instance.new("ScreenGui")
-
+	if game.CoreGui:FindFirstChild("Haze's UI Library") then
+		game.CoreGui["Haze's UI Library"]:Destroy()
+	end
     ScreenGui.Parent = game.CoreGui
     syn.protect_gui(ScreenGui)
 	ScreenGui.DisplayOrder = 999999
