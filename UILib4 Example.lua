@@ -43,3 +43,10 @@ Library.CreateSlider({
 		print(Value)
 	end,
 })
+
+Library.CreateLabel({
+	["Text Content"] = [[UI Library by Haze]];
+	["Tab"] = "Tab";
+	["Section"] = "Test Section";
+	["Rich Text Enabled"] = false
+})
